@@ -1,23 +1,17 @@
+
 {
   "name": "myprj_backend_task-main",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Feedback form backend",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mohamedshahinn0021-ux/task_backend.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/mohamedshahinn0021-ux/task_backend/issues"
-  },
-  "homepage": "https://github.com/mohamedshahinn0021-ux/task_backend#readme",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^18.0.10",
